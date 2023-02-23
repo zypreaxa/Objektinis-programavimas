@@ -77,53 +77,21 @@ void ivedimas(Studentas& temp) {
 	cin.ignore(numeric_limits<streamsize>::max(), '\n');
 
 	while(true) {
-		if(ivestis == 'r') {
+		while (true) {
+		if (ivestis == 'r') {
 			cout << "Iveskite pazymius: " << endl;
 
 			int pazymys;
-			int dydis = 1, index = 0; //dydis - masyvo dydis. index - pozicija masyve.
-			int* a = new int[dydis];
 
-			while(cin >> pazymys) {
-				if(dydis == 1) {
-					while(true) {
-						if(pazymys >= 0 && pazymys <= 10) {
-							a[index] = pazymys;
-							dydis++;
-							int* b = new int[dydis];	  //sukuriamas didesnis masyvas
-							copy_n(a, 1, b);		  //a -> b
-							delete[]a;				  //a -/- 
-							a = b;					  //rodyklė rodo į b
-							b = NULL;					  //b rodo į null
-							break;
-						}
-						else{
-							cin.clear();
-							cin.ignore(numeric_limits<streamsize>::max(), '\n');
-							cout << "Pazymiai gali buti tik [0; 10]." << endl; cin >> pazymys;
-						}
+			while (cin >> pazymys) {
+				if ((pazymys >= 0) && (pazymys <= 10)) { temp.paz.push_back(pazymys); }
+				else {
+					while ((pazymys < 0) || pazymys > 10) {
+						cin.clear();
+						cin.ignore(numeric_limits<streamsize>::max(), '\n');
+						cout << "Pazymiai gali buti tik [0;10]." << endl; cin >> pazymys;
 					}
-				}
-				else{
-					while(true) {					//viskas vykdoma kol programa užbaigiama
-						if(pazymys >= 0 && pazymys <= 10) { //[0;10]
-							dydis++;
-							index++;
-							a[index] = pazymys;
-							int* b = new int[dydis];
-							copy(a, a + (dydis - 1), b);
-							delete[]a;
-							a = b;
-							b = NULL;
-							break;
-						}
-						else{ //įvestis nepriklauso [0;10]
-							cin.clear();
-							cin.ignore(numeric_limits<streamsize>::max(), '\n');
-							cout << "Pazymiai gali buti tik [0; 10]." << endl; cin >> pazymys;
-						}
-						temp.paz.push_back(pazymys);
-					}
+					temp.paz.push_back(pazymys);
 				}
 			}
 
