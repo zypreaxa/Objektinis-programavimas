@@ -1,0 +1,20 @@
+﻿  objektinis failu skaitymas.cpp
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(35,44): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(42,90): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(45,43): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(50,36): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(96,14): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(212,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(218,114): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(221,55): warning C4244: '=': conversion from '_Ty' to 'float', possible loss of data
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(226,20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\objektinis failu skaitymas\objektinis failu skaitymas.cpp(262,9): warning C4552: '-': result of expression not used
+  objektinis failu skaitymas.vcxproj -> C:\Users\Rimantas\OneDrive\Desktop\objektinis failu skaitymas\x64\Debug\objektinis failu skaitymas.exe
