@@ -1,7 +1,7 @@
 # Objektinis-programavimas
 <sub>1 kurso objektinio programavimo modulio darbų repozitorija.</sub>
 
-#v0.1
+# v0.1
 Pirmoji versija turi du variantus:
 
 *-Kodas, kuriame naudojami C masyvai.*
@@ -9,8 +9,8 @@ Pirmoji versija turi du variantus:
 
 **Abu failai naudoja universalią asmeninę biblioteką.**
 
-#v0.2
-##Kas naujo?
+# v0.2
+## Kas naujo?
 Kodas papildytas taip, kad galėtų nuskaityti pasirinktą tekstinį failą ir išvesti jo duomenis konsolėje pagal pasirinktą rikiavimą.
 Tą pasiekti reikėjo:
 
