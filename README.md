@@ -15,11 +15,11 @@ Kodas papildytas taip, kad galėtų nuskaityti pasirinktą tekstinį failą ir i
 Tą pasiekti reikėjo:
 
 - Atnaujinti asmeninę biblioteką.
-<sub>Įtrauktos dažnai naudojamos bibliotekos, skirtos failo nuskaitymui (ifstream, stringstream).</sub>
+  - Įtrauktos dažnai naudojamos bibliotekos, skirtos failo nuskaitymui (ifstream, stringstream).
 
 - Pridėti funkcijas, kurių tikslas nuskaityti pasirinktą .txt failą.
-<sub>element_count() - eilutės elementų skaičiavimas. counter() - eilučių skaičiavimas. Abi funkcijos naudojamos atpažinti failo dydį
-ir pagal tai priskirti nuskaitytus duomenis studento struktūrai.</sub>
+  - element_count() - eilutės elementų skaičiavimas. 
+  - counter() - eilučių skaičiavimas. Abi funkcijos naudojamos atpažinti failo dydį ir pagal tai priskirti nuskaitytus duomenis studento struktūrai.
 
 - Pridėti papildomą funkciją, kuri išrūšiuotų studento sąrašą *vector<Studentas> sarasas* pagal pirmąją vardo raidę.
 
