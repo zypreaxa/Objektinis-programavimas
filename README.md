@@ -15,7 +15,7 @@ Kodas papildytas taip, kad galėtų nuskaityti pasirinktą tekstinį failą ir i
 Tą pasiekti reikėjo:
 
 - Atnaujinti asmeninę biblioteką.
-  - Įtrauktos dažnai naudojamos bibliotekos, skirtos failo nuskaitymui (ifstream, stringstream).
+  - įtrauktos dažnai naudojamos bibliotekos, skirtos failo nuskaitymui (ifstream, stringstream).
 
 - Pridėti funkcijas, kurių tikslas nuskaityti pasirinktą .txt failą.
   - element_count() - eilutės elementų skaičiavimas. 
@@ -24,3 +24,18 @@ Tą pasiekti reikėjo:
 - Pridėti papildomą funkciją, kuri išrūšiuotų studento sąrašą *vector<Studentas> sarasas* pagal pirmąją vardo raidę.
 
 *Nuo šios versijos buvo pradėtas vesti ***README.md*** failas*
+# v0.3
+## Kas naujo?
+Kadangi projektas buvo sukeltas į vieną bloką, teko jį išskaidyti į kelis skirtingus dokumentus.
+Jis buvo išskaidytas į:
+
+- *fun.h* failą.
+  - į šį failą perkelta *Studentas* struktūra ir jos deklaracijos, taip pat deklaruotos visos projekte naudojamos funkcijos (išskyrus *main()*).
+
+- Source failus, kuriuose sudėtos tam tikro tipo funkcijos:
+  - rankinės įvesties funkcijos.
+  - failo nuskaitymo funkcijos.
+  - spausdinimo funkcijos.
+  
+Taip pat buvo pridėtas *try/catch*, taigi jei yra įvedamas neegzistuojantis failo pavadinimas, programa jo neatpažįsta ir negrąžina tuščios išvesties.
+  
