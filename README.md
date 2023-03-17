@@ -47,5 +47,27 @@ Visas projektas buvo šiek tiek pakoreguotas siekiant optimizuoti programos veik
 - Pakeista kaip atrodo user interface. Vartotojui duodama žymiai daugiau pasirinkimų, pridėti *try/catch* ten, kur jų labai reikėjo. *Input* pasirinkimai intuityvesni.
 
 Pagal užduoties reikalavimus buvo pridėti/pakeisti šie programos komponentai:
+- Pakeista:
+  - *read_file()* funkcija. Dabar naudojamas *istringstream* bufferis.
+  - Visoms reikalingoms funkcijoms pagal užduoties reikalavimus buvo pridėtos laiko matavimo priemonės.
+  - Pakeistas projekto /Ox flag. Tai turėtų pagreitinti programos veikimą.
+- Pridėta:
+  - *generate()* funkcija, kuri generuoja norimą failą. Priklausomai nuo to, kaip funkcija yra naudojama, galima sukurti norimą įrašų failą.
+  - *requirement_generate()* funkcija, kuri pasitelkia *generate()* ir sukuria failus pagal užduoties reikalavimus.
+  - Studentų suskirstymo, išrūšiavimo ir išvedimo funkcijos, kurios atskiria protingus ir ne tokius protingus studentus.
+  - Pridėtas loading indikatorius, kuris leidžia vartotojui suprasti kad programa vykdo nurodymus.
+  
+Padaryta programos trukmės duomenų lentelė:
+| Stud. skaičius | Generavimo trukmė (s) | Nuskaitymo trukmė (s) | Rūšiavimo trukmė (s) | Išvedimas į du failus |
+|----------------|-----------------------|-----------------------|----------------------|-----------------------|
+| 1000           | 0,26                  | 0,26                  | 0,26                 | 0,26                  |
+| 10000          | 0,26                  | 0,26                  | 0,26                 | 0,26                  |
+| 100000         | 0,50                  | 4,07                  | 0,26                 | 2,06                  |
+| 1000000        | 5,40                  | 40,34                 | 2,34                 | 31,33                 |
+| 10000000       | 50,04                 | 410,02                | 20,03                | 152,07                |
+  
+/Visos programos veikimo laiką išmatuoti įmanoma bet beprasmiška, nes labai dažnai reikalaujama vartotojo įvesčių. Kiekvieną kartą atidarius programą gaunamas vis kitoks laikas, nes vartotojas ne visada pasirenka ką nori daryti per tą patį laiko tarpsnį./
+  
+  
 
   
