@@ -40,4 +40,12 @@ Jis buvo išskaidytas į:
 Taip pat buvo pridėtas *try/catch*, taigi jei yra įvedamas neegzistuojantis failo pavadinimas, programa jo neatpažįsta ir negrąžina tuščios išvesties.
   
 # v0.4
+## Kas naujo?
+Visas projektas buvo šiek tiek pakoreguotas siekiant optimizuoti programos veikimo laiką ir išmatuoti jos spartą. 
+- Pridėtas *windows.h* failas, kurį naudoja _showloadingindicator_ funkcija. Ji naudojama parodyti vartotojui, kad programa iš tiesų veikia.
+- Visas I/O perkeltas į atskirą failą dėl patogumo. Taip main programa atrodo daug švaresnė.
+- Pakeista kaip atrodo user interface. Vartotojui duodama žymiai daugiau pasirinkimų, pridėti *try/catch* ten, kur jų labai reikėjo. *Input* pasirinkimai intuityvesni.
+
+Pagal užduoties reikalavimus buvo pridėti/pakeisti šie programos komponentai:
+
   
