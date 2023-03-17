@@ -66,7 +66,7 @@ Padaryta programos trukmės duomenų lentelė:
 | 1000000        | 5,40                  | 40,34                 | 2,34                 | 31,33                 |
 | 10000000       | 50,04                 | 410,02                | 20,03                | 152,07                |
   
-** Visos programos veikimo laiką išmatuoti įmanoma bet beprasmiška, nes labai dažnai reikalaujama vartotojo įvesčių. Kiekvieną kartą atidarius programą gaunamas vis kitoks laikas, nes vartotojas ne visada pasirenka ką nori daryti per tą patį laiko tarpsnį. **
+_ Visos programos veikimo laiką išmatuoti įmanoma bet beprasmiška, nes labai dažnai reikalaujama vartotojo įvesčių. Kiekvieną kartą atidarius programą gaunamas vis kitoks laikas, nes vartotojas ne visada pasirenka ką nori daryti per tą patį laiko tarpsnį. _
   
   
 
