@@ -1,7 +1,0 @@
-x64/
-.vs/
-objektinis failu skaitymas/x64/
-*.vcxproj
-*vcxproj.filters
-*vcxproj.user
-
